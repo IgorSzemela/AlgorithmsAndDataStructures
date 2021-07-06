@@ -131,7 +131,7 @@ int main()
 			BuildHeap(v, v.size(), ifMax);
 			break;
 		case 's':
-			ChangeOrder(v, v.size(), ifMax);//change the orientation of the heap – from max to min
+			ChangeOrder(v, v.size(), ifMax);//change the orientation of the heap â€“ from max to min
 			break;							//and from min to max respectively
 		case 'q'://exit the program
 			return 0;
@@ -139,5 +139,7 @@ int main()
 		}
 	}
 
+	delete file;
+	
 	return 0;
 }
