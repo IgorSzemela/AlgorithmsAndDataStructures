@@ -1,0 +1,36 @@
++ dog pies
++ cat kot
++ do robic
++ doggie piesek
++ doggies pieski
++ dolphin delfin
++ ant mrowka
++ zzz xxx
+? dog
+? cat
+? do
+? doggie
+? dolphin
+? ant
+? zzz
+? d
+? dot
+? dom
+? dogg
+? dol
+? dolp
+? dolph
+? dolphi
+? dolphine
+* a
+* d
+* do
+* dog
+* dogg
+* doggie
+* doggies
+* z
+* b
+* dot
+* dolphen
+* doggiess
