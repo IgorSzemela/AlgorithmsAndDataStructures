@@ -56,7 +56,9 @@ int main()
 
     for (int i = 0; i < n; i++)
       cout << tab[i] << endl;
-
+        
+    delete [] tab;
+    
     return 0;
 }
 
