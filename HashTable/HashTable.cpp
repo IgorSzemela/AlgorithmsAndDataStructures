@@ -17,7 +17,6 @@ struct Node {
 	int amount;
 };
 
-
 int Hash(std::string from, std::string to)
 {
 	const char* from_c_str = from.c_str(); //string to  const char*
@@ -108,7 +107,6 @@ void PrintTransaction(Node ** hashTable, std::string from, std::string to){
 		}
 	}		
 }
-
 
 
 int main(int argc, char** argv)
