@@ -1,0 +1,53 @@
++ bca acb 2
++ bca cba 2
++ acb abc 17
++ abc bac 6
++ bac acb 13
++ cba abc 7
++ bac cba 18
++ acb cba 2
++ cba cba 10
++ abc bca 18
++ cab abc 5
++ cab cba 20
++ acb cba 1
++ bac bca 7
++ bac cab 1
++ bac bac 8
++ abc bac 13
++ acb bca 2
++ cab bca 19
++ acb acb 5
++ bac cab 15
++ bca abc 6
++ bac bca 19
++ bca acb 19
++ acb bac 19
++ bca cab 13
++ bac cab 6
++ abc bac 1
++ bca bca 14
++ cba acb 1
+? acb abc
+? cba abc
+? bca cba
+? acb bca
+? cba acb
+? abc bac
+? bac bca
+? bac bac
+? cba cba
+? bca cab
+? bac cab
+? cab bca
+? cab cba
+? bca bca
+? acb bac
+? abc bca
+? bac cba
+? cab abc
+? bca acb
+? acb cba
+? bca abc
+? bac acb
+? acb acb
