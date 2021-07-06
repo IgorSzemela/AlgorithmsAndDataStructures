@@ -1,3 +1,3 @@
 # AlgorithmsAndDataStructures
-Many algorithms and data structures written in C. \
+Algorithms and data structures  written in C++. \
 Instructions and appropriate explanations are provided in the form of comments in source files.
