@@ -14,7 +14,6 @@ struct Node {
 	bool isLeaf = false;
 };
 
-
 struct Node* addNewNode()
 {
 	struct Node* newNode = new Node;
@@ -25,7 +24,6 @@ struct Node* addNewNode()
 
 	return newNode;
 }
-
 
 void search(struct Node* root, string eng)
 {
@@ -48,7 +46,6 @@ void search(struct Node* root, string eng)
 		return;
 	}
 }
-
 
 void prefixPrint(struct Node* intenralNode)
 {
@@ -84,7 +81,6 @@ void prefixSearch(struct Node* root, string eng)
 	}
 }
 
-
 void add(struct Node* root, string eng, string pol)
 {
 	struct Node* traversalNode = root;
@@ -99,7 +95,6 @@ void add(struct Node* root, string eng, string pol)
 	traversalNode->polishFullTrans = pol;
 	traversalNode->isLeaf = true;
 }
-
 
 int main(int argc, char** argv)
 {
