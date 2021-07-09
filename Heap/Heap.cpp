@@ -7,16 +7,13 @@
 #include <vector>
 using namespace std;
 
-
 int Left(int i) {
 	return 2 * i + 1;
 }
 
-
 int Right(int i) {
 	return 2 * i + 2;
 }
-
 
 void Heapify(vector < int >& v, int i, int size, int ifMax)
 {
@@ -56,7 +53,6 @@ void Heapify(vector < int >& v, int i, int size, int ifMax)
 	}	
 }
 
-
 void Remove(vector < int >& v, int ifMax)
 {
 	cout << v[0] << endl;
@@ -67,7 +63,6 @@ void Remove(vector < int >& v, int ifMax)
 		Heapify(v, i, v.size(), ifMax);
 }
 
-
 void BuildHeap(vector < int >& v, int size, int ifMax)
 {
 	int lastNonLeaf = (size / 2) - 1;
@@ -75,7 +70,6 @@ void BuildHeap(vector < int >& v, int size, int ifMax)
 	for (int i = lastNonLeaf; i >= 0; i--)
 		Heapify(v, i, size, ifMax);
 }
-
 
 void ChangeOrder(vector < int >& v, int size, int& ifMax) {
 	if (ifMax) {
@@ -87,7 +81,6 @@ void ChangeOrder(vector < int >& v, int size, int& ifMax) {
 		BuildHeap(v, size, ifMax);
 	}
 }
-
 
 int main()
 {
